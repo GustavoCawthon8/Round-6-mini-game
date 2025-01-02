@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+#container{
+  background: #202022;
+  width: 100%;
+  height: 100vh;
+}
+
+#personagens{
+  position: absolute;
+  top: 0px;
+  display: flex;
+  width: 100%
+}
+
+.soldado{
+  width: 100px
+}
+
+#boneca{
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -10;
+}
+
+#soldado1{
+  position: absolute;
+  left:0;
+}
+
+#soldado2{
+  position: absolute;
+  right:0;
+}
+
+#linha{
+  background: #E0B72B;
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  top: 170px;
+}
+
+#jogadores{
+  position: absolute;
+  top: 400px;
+}
+
+.jogadores {
+  position: absolute;
+  bottom: -50;
+  width: 90px;
+  transition: 3 linear;
+}
+
+#jogador1 {
+  left: 0;
+}
+
+#jogador2 {
+  left: 100px;
+}
+
+#jogador3 {
+  left: 200px;
+}
+
+#jogador4 {
+  left: 300px;
+}
+
+#jogador5 {
+  left: 400px;
+}
+
+#controles{
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#btnAndad{
+  background: #0F8FFF;
+  color: #ffffff;
+  padding: 50px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+#btnParar{
+  background: #FF0F0F;
+  color: #ffffff;
+  padding: 50px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
